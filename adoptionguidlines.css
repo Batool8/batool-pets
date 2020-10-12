@@ -1,0 +1,117 @@
+body{
+    background-color: rgb(255, 253, 250);
+    font-family: 'Times New Roman', Times, serif;
+    font-size:17px;
+    color: rgb(122, 52, 5);
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size:1.8rem;
+    transform: translate(0px,8.3vh);
+    margin-left: 2.3vh;
+    color: rgba(155, 72, 4, .9);
+    text-shadow: 2.9px 2.9px black;
+    text-shadow: 1px 1px white;
+    letter-spacing: 1.5px;
+}
+
+header nav{
+    background-color: rgb(158, 99, 45);
+    padding:3px;
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    
+}
+
+header nav ul{
+    list-style-type:none;
+}
+
+header nav ul li{
+    display: inline-block;
+    width:30%;
+}
+
+nav a {
+    text-decoration:none;
+    font-size:1.4rem;
+    margin-left: 26vh;
+    font-family: 'Sansita Swashed', cursive;
+    text-shadow: .2px .2px black;
+}
+
+header nav a:link{color:white;}
+header nav a:visited{color:rgba(61, 44, 2, 0.8);}
+header nav a:hover{color: rgb(228, 196, 158);}
+ 
+main h2{
+    color:rgba(155, 82, 23, 0.8);
+    font-size: 2.5rem;
+    text-align: center;
+    font-style:oblique;
+    text-shadow: .5px .5px black;
+    text-shadow: 1px 1px burlywood;
+}
+
+main ul li a:link{color:rgb(218, 119, 6);}
+main ul li a:visited{color:rgb(90, 49, 2);}
+main ul li a:hover{color: rgb(228, 196, 158);}
+
+main p a:link{color:rgb(218, 119, 6);}
+main p a:visited{color:rgb(90, 49, 2);}
+main p a:hover{color: rgb(228, 196, 158);}
+
+main img{
+    margin-left:45vh;
+    margin-bottom:-6vh;
+    position: bottom -40vh;
+    width:80%;
+    height:40vh;
+}
+
+main div img{
+    width:40%;
+    height:60vh;
+    margin-left: 20vh;
+    margin-right:10vh;
+    border-radius: 30vh;
+}
+
+main div{
+    display: flex;
+}
+
+#img2{
+    width:40%;
+    height:60vh;
+    margin-left: 20vh;
+    margin-right:10vh;
+    border: .6vh solid rgba(65, 33, 2, 0.5);
+    border-radius:5vh;
+}
+
+.footer{
+    background-color:rgb(233, 192, 143);
+    margin:-7px;
+    
+}
+
+footer h2{
+    color: rgb(122, 57, 27);
+    font-size:3rem;
+    padding-left:85vh;
+    word-spacing: 4px;
+}
+
+footer p{
+    font-size: 1.2rem;
+    color:rgb(139, 67, 34);
+    padding-left:90vh;
+    padding-bottom: 5vh;
+    text-decoration: underline;
+    
+}
